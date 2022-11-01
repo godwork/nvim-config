@@ -1,0 +1,7 @@
+require("base")
+require("maps")
+require("plugins")
+require("theme")
+require("tree")
+require("telescope-config")
+require("lsp-config")
