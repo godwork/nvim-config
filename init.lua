@@ -6,3 +6,7 @@ require("tree")
 require("telescope-config")
 require("lsp-config")
 require("git-config")
+require("lualine-config")
+require("cmp-config")
+require("treesitter-config")
+

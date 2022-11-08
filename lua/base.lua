@@ -19,6 +19,13 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+--vim.opt.showtabline = 2
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
@@ -27,3 +34,7 @@ vim.bo.autoread = true
 
 vim.wo.signcolumn = 'yes'
 --vim.opt.list = true
+
+vim.opt.termguicolors = true
+vim.opt.cursorline = true
+
