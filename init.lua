@@ -9,4 +9,5 @@ require("git-config")
 require("lualine-config")
 require("cmp-config")
 require("treesitter-config")
-
+require("outline")
+require("bufferline-config")

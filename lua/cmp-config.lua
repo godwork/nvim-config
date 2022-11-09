@@ -31,7 +31,7 @@ ls.add_snippets("all", {
 ls.add_snippets("cs", {
     s("///", {
         t("/// <summary>"),
-        t({"","/// "}),i(1),
-        t({"","/// </summary>"}),
+        t({ "", "/// " }), i(1),
+        t({ "", "/// </summary>" }),
     })
 })
