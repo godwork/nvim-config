@@ -59,5 +59,8 @@ return require('packer').startup(function(use)
     -- outline
     use 'simrat39/symbols-outline.nvim'
     -- bufferline
-    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+    use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
+
+    -- terminal
+    use { "akinsho/toggleterm.nvim", tag = '*' }
 end)
