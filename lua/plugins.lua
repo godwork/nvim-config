@@ -42,6 +42,7 @@ return require('packer').startup(function(use)
 
     -- git
     use 'lewis6991/gitsigns.nvim'
+    use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
 
     -- comment
     use {
@@ -63,4 +64,5 @@ return require('packer').startup(function(use)
 
     -- terminal
     use { "akinsho/toggleterm.nvim", tag = '*' }
+
 end)
